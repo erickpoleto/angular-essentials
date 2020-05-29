@@ -1,0 +1,9 @@
+.home .title {
+    font-size: 2rem;
+
+}
+.home .subtitle{
+    font-size: 1.1rem;
+    padding-top: 10px;
+    padding-left: 10px;
+}
