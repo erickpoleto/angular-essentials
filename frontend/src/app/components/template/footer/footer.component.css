@@ -1,0 +1,15 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    box-shadow: 0 -1px 3px grey;
+    z-index: 5;
+}
+
+.footer > span {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
