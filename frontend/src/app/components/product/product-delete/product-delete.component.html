@@ -1,0 +1,10 @@
+<mat-card>
+    <h2>Deletar Produto</h2>
+    <mat-list>
+        <mat-list-item>id: {{product.id}}</mat-list-item>
+        <mat-list-item>nome: {{product.name}}</mat-list-item>
+        <mat-list-item>preco: {{product.price | currency:"BRL"}}</mat-list-item>
+    </mat-list>
+    <button mat-raised-button class="delete" (click)="handleProductsDelete()">deletar</button>
+    <button mat-raised-button class="cancel" (click)="cancel()">cancelar</button>
+</mat-card>
